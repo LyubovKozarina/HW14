@@ -12,14 +12,14 @@
 - Видео пример прохождения тестов
 
 <a id="tools"></a>
-## :ballot_box_with_check:Технологии и инструменты:
+## ☑️Технологии и инструменты:
 
 |         Java                                                                                                      | IntelliJ  <br>  Idea                                                                                               | GitHub                                                                                                     | JUnit 5                                                                                                           | Gradle                                                                                                     | Selenide                                                                                                         | Selenoid                                                                                                                  | Allure <br> Report                                                                                                         |  Jenkins                                                                                                        |   Telegram
 |:----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | <a href="https://www.java.com/"><img src="images/java-svgrepo-com.svg" width="50" height="50"  alt="Java"/></a>  | <a href="https://www.jetbrains.com/idea/"><img src="images/intellij-idea-svgrepo-com.svg" width="50" height="50"  alt="IDEA"/></a> | <a href="https://github.com/"><img src="images/github-badge-svgrepo-com.svg" width="50" height="50"  alt="Github"/></a> | <a href="https://junit.org/junit5/"><img src="images/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a> | <a href="https://gradle.org/"><img src="images/gradle-svgrepo-com.svg" width="50" height="50"  alt="Gradle"/></a> | <a href="https://selenide.org/"><img src="images/Selenide.svg" width="50" height="50"  alt="Selenide"/></a> | <a href="https://aerokube.com/selenoid/"><img src="images/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a> | <a href="https://github.com/allure-framework"><img src="images/Allure.svg" width="50" height="50"  alt="Allure"/></a> |<a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> | <a href="https://web.telegram.org/"><img src="images/Telegram.svg" width="50" height="50" alt="Telegram"/></a> |<a href="https://qameta.io/"><img src="images\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO"/></a> |
 
 <a id="cases"></a>
-## :ballot_box_with_check: Реализованные проверки:
+## ☑️ Реализованные проверки:
 
 - Проверка заголовка страницы
 - Переход в раздел 'О компании' с главной страницы и проверяем текст заголовка страницы 'О компании'
@@ -35,7 +35,7 @@
 </p>
 
 
-## :ballot_box_with_check: Параметры сборки в Jenkins:
+## Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
 - browserVersion (версия браузера, по умолчанию 125.0)
@@ -80,9 +80,6 @@ ____
 ## <img alt="Selenoid" height="25" src="images/Selenoid.svg" width="25"/></a> Примеры видео выполнения тестов на Selenoid
 ____
 <p align="center">
-<img title="Selenoid Video" src="images/news.gif" width="550" height="350"  alt="video">   
+<img title="Selenoid Video" src="images/video.gif" width="550" height="350"  alt="video">   
 </p>
 
-<p align="center">
-<img title="Selenoid Video" src="images/contact.gif" width="550" height="350"  alt="video">   
-</p>
