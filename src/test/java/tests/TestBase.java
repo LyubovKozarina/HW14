@@ -17,7 +17,6 @@ public class TestBase {
     @BeforeAll
     static void setup() {
         Configuration.baseUrl = "https://transtelematica.ru";
-        Configuration.timeout = 5000;
 
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "125.0");

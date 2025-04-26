@@ -12,7 +12,7 @@ public class TranstelematicaTests extends TestBase {
 
     @Test
     @DisplayName("Проверка заголовка страницы")
-    void checkPageTitle() {
+    void checkPageTitleTest() {
         step("Открыть главную страницу", () -> open(baseUrl));
         step("Проверить заголовок <title>", () ->
                 title().equals("Сервисный центр Транстелематика")
@@ -21,7 +21,7 @@ public class TranstelematicaTests extends TestBase {
 
     @Test
     @DisplayName("Переход в раздел 'О компании'")
-    void goToAboutPage() {
+    void goToAboutPageTest() {
         step("Открыть главную страницу", () -> open(baseUrl));
         step("Нажать на пункт меню 'О компании'", () ->
                 $("a[href='/about/']").click()
@@ -33,7 +33,7 @@ public class TranstelematicaTests extends TestBase {
 
     @Test
     @DisplayName("Переход в раздел 'Услуги'")
-    void goToServicesPage() {
+    void goToServicesPageTest() {
         step("Открыть главную страницу", () -> open(baseUrl));
         step("Нажать на пункт меню 'Услуги'", () ->
                 $("a[href='/services/']").click()
@@ -45,7 +45,7 @@ public class TranstelematicaTests extends TestBase {
 
     @Test
     @DisplayName("Переход в раздел 'Проекты'")
-    void goToProjectsPage() {
+    void goToProjectsPageTest() {
         step("Открыть главную страницу", () -> open(baseUrl));
         step("Нажать на пункт меню 'Проекты'", () ->
                 $("a[href='/projects/']").click()
@@ -57,7 +57,7 @@ public class TranstelematicaTests extends TestBase {
 
     @Test
     @DisplayName("Переход в раздел 'Контакты'")
-    void goToContactsPage() {
+    void goToContactsPageTest() {
         step("Открыть главную страницу", () -> open(baseUrl));
         step("Нажать на пункт меню 'Контакты'", () ->
                 $("a[href='/contacts/']").click()
